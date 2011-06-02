@@ -3,6 +3,7 @@
 <HEAD>
 <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
 <TITLE>Meeting Agendas</TITLE>
+<META name="author" content="Marghanita da Cruz">
 <META name=keywords content="Open Source, FOSS, Linux, Meeting, Planning, Agenda, Scheduling, Video Conferencing">
 <META name=description content="Overview of Ramin Communications Open Source - Linux and Video on a Laptop Project">
 <link rel="stylesheet" href="linux.css" type="text/css">
@@ -28,7 +29,7 @@ a.meeting-agenda:hover  {background: #2D6E89; text-decoration: none; color: whit
 <a id=strata></a>
 <!--#include virtual="strata-agenda.html" -->
 <p class=footer>
-<em>www.ramin.com.au/linux/meeting-agenda-rundown.shtml <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/au/deed.en">Attribution-Noncommercial-Share Alike</a> Ramin Communications. Last modified 2 June 2011.</em>
+<em>www.ramin.com.au/linux/meeting-agenda-rundown.shtml <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/au/deed.en">Attribution-Noncommercial-Share Alike</a> Ramin Communications. Last modified 3 June 2011.</em>
 </p>
 </BODY>
 </HTML>
