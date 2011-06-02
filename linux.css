@@ -1,0 +1,23 @@
+body { font-family: sans-serif; background: white; line-height:150%; }
+h1 { font-size: 150%; background: #2D6E89; color: #ffffff; padding: 0.5%; margin: 0.5%; }
+h2 { font-size: 140%; }
+h3 { font-size: 120%; }
+em { font-size: 100%; color: #2D6E89; padding: 0.1%; }
+a:link { text-decoration: underline; color: #336699; padding: 0.1%; }
+a:visited { text-decoration: underline; color: navy;  padding: 0.1%; }
+a:hover {background: #2D6E89; text-decoration: underline; color: white; padding: 0.1%; }
+p { text-decoration: none; color: black; padding: 1%; margin:0.5% }
+.head { float: none;  margin: 0%; padding: 0.5%; text-align: right; }
+.right { float: right; width: 17%; margin: 0.5%; padding: 1%; background: white; }
+.body { float: left; width: 70%; margin: 0.1%; padding: 0.1%; background: white; text-align: left; }
+.image-right {float: right; padding: 1%; }
+.image-left {float: left; padding: 1%; } 
+.section { background: #cccccc; font-size: 125%; padding: 1%; }
+.proposedtext { background: #C0D9D9; margin: 2%; padding: 1%; }
+.sub-menu { text-align: left; line-height:250%; }
+.comment { margin: 1%; padding: 1%; }
+a.current:link {background: #2D6E89; text-decoration: none; color: white; padding: 0.1%; }
+a.current:visited {background: #2D6E89; text-decoration: none; color: white; padding: 0.1%; }
+a.current:hover {background: #2D6E89; text-decoration: none; color: white; padding: 0.1%; }
+blockquote {color: #2D6E89; font-style:oblique; }
+

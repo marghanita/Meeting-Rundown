@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<TITLE>Meeting Agendas</TITLE>
+<META name=keywords content="Open Source, FOSS, Linux, Meeting, Planning, Agenda, Scheduling, Video Conferencing">
+<META name=description content="Overview of Ramin Communications Open Source - Linux and Video on a Laptop Project">
+<link rel="stylesheet" href="linux.css" type="text/css">
+<link rel="stylesheet" href="linux-meetings.css" type="text/css">
+<STYLE type="text/css">
+	<!--
+a.meeting-agenda:link  {background: #2D6E89; text-decoration: none; color: white; padding: 0.1%; }
+a.meeting-agenda:visited  {background: #2D6E89; text-decoration: none;  color: white; padding: 0.1%; }
+a.meeting-agenda:hover  {background: #2D6E89; text-decoration: none; color: white; padding: 0.1%; }
+	-->
+	</STYLE>
+<!--#include virtual="timer-include.js" -->
+</head>
+<body onload="startTime()">
+<!--#include virtual="linux-include.html" -->
+<h2>Meeting-Rundown</h2>
+<p>Prototypes of a Meeting Agendas/rundowns: <a href=#slug>SLUG Agenda</a> | <a href=#gen>Plan your own Agenda</a> | <a href="#strata">Sample Strata (Owners Corporation) AGM Agenda</a></p>
+<p>Java scripts from <a href="http://www.w3schools.com/">www.w3schools.com</a>. Collaboration at <a href="https://github.com/marghanita/Meeting-Rundown/">https://github.com/marghanita/Meeting-Rundown/</a></p>
+<a id=slug></a>
+<!--#include virtual="slug-meeting-agenda-rundown.html" -->
+<a id=gen></a>
+<!--#include virtual="general-agenda.html" -->
+<a id=strata></a>
+<!--#include virtual="strata-agenda.html" -->
+<p class=footer>
+<em>www.ramin.com.au/linux/meeting-agenda-rundown.shtml <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/au/deed.en">Attribution-Noncommercial-Share Alike</a> Ramin Communications. Last modified 2 June 2011.</em>
+</p>
+</BODY>
+</HTML>
