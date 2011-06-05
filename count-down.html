@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" href="linux-meetings.css" type="text/css">
+<script type="text/javascript">
+var c=300;
+var t;
+var timer_is_on=0;
+
+function timedCount()
+{
+document.getElementById('txt').value=c;
+c=c-1;
+t=setTimeout("timedCount()",1000);
+}
+
+function doTimer()
+{
+if (!timer_is_on)
+  {
+  timer_is_on=1;
+  timedCount();
+  }
+}
+
+function stopCount()
+{
+clearTimeout(t);
+timer_is_on=0;
+c=300;
+}
+function getSpeaker()
+{
+document.getElementById('s-txt').value=s;
+s=speaker;
+c=300;
+}
+</script>
+</head>
+<body>
+<h1><input  class=timer type="text" id="s-txt" size=5></h1>
+<form><div class=timer><input  class=timer type="text" id="txt" size=5></p>
+<p><input type=radio onclick="doTimer();" name=status value=Started>Start Clock<input type=radio onclick="stopCount();" name=status value=completed>Stop Clock</p>
+<p><input type=button name="next speaker" value="next-speaker" onclick="getSpeaker()"></p>
+</form>
+</body>
+</html>
